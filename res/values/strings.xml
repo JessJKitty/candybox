@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CandyBox2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="merchant">Merchant</string>
+    <string name="quest">Quest</string>
+    <string name="inventory">Inventory</string>
+    <string name="lollipop">Buy Lollipop for 60 candies</string>
+    <string name="sword">Buy Sword for 300 candies</string>
+    <string name="scroll">Buy Scroll for 400 candies</string>
+    <string name="potion">Buy Potion for 200 candies</string>
+    <string name="frog">Visit the Frog</string>
+    <string name="witch">Visit the Witch</string>
+    <string name="well">Visit the Wishing Well</string>
+    <string name="forest">Do a Quest in the Peaceful Forest!</string>
+    <string name="goblin">Do a Quest at Mount Goblin!</string>
+    <string name="underwater">Do a quest at the Underwater Cave!</string>
+    <string name="startquest">Start Quest!</string>
+    <string name="eat">Eat Candies!</string>
+
+</resources>
