@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
 
     <Button
         android:id="@+id/well"
@@ -26,5 +26,60 @@
         android:layout_above="@+id/well"
         android:layout_centerHorizontal="true"
         android:text="@string/witch" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:src="@drawable/sword_silver" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/frog"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginRight="18dp"
+        android:src="@drawable/sword_iron" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frog"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:src="@drawable/sword_copper" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/frog"
+        android:layout_alignLeft = "@+id/imageView1"
+        android:layout_alignRight="@+id/imageView3"
+        android:text="Haha. Look at these awesome swords. Unfortunately, you only have the first one."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_marginBottom="18dp"
+        android:layout_toLeftOf="@+id/witch"
+        android:src="@drawable/sword_wooden" />
+    
+        <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" />
 
 </RelativeLayout>

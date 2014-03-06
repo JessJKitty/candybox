@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
 
     <Button
         android:id="@+id/underwater"
@@ -28,5 +29,22 @@
         android:layout_alignRight="@+id/underwater"
         android:layout_marginBottom="29dp"
         android:text="@string/forest" />
+
+    <Button
+        android:id="@+id/finalboss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/underwater"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="FACE YOUR WORST NIGHTMARE!" />
+    
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" />
 
 </RelativeLayout>

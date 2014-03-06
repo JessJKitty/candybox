@@ -46,6 +46,94 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Forest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.FOREST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Goblin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.GOBLIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Underwater"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.UNDERWATER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Frog"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.FROG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Well"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.WELL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Witch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.WITCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Finalboss"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.FINALBOSS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Forestquest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.FORESTQUEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Goblinquest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.GOBLINQUEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Underwaterquest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.UNDERWATERQUEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yummy.candies.candybox2.Finalbossquest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="yummy.candies.candybox2.FINALBOSSQUEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@
     <string name="quest">Quest</string>
     <string name="inventory">Inventory</string>
     <string name="lollipop">Buy Lollipop for 60 candies</string>
-    <string name="sword">Buy Sword for 300 candies</string>
+    <string name="sword">Buy Sword for 300 + 500* current sword  candies</string>
     <string name="scroll">Buy Scroll for 400 candies</string>
     <string name="potion">Buy Potion for 200 candies</string>
     <string name="frog">Visit the Frog</string>
@@ -19,5 +19,10 @@
     <string name="underwater">Do a quest at the Underwater Cave!</string>
     <string name="startquest">Start Quest!</string>
     <string name="eat">Eat Candies!</string>
+    <string name="troll">May I have some more &lt;candies&gt; plz?</string>
+    <string name="lollifarm">Plant 1 Lollipop!</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
 
 </resources>

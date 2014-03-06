@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/playerHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scroll"
+        android:layout_below="@+id/enemyHp"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/enemyHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/potion"
+        android:layout_below="@+id/textView1" />
+
+    <Button
+        android:id="@+id/attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/potion"
+        android:layout_alignBottom="@+id/potion"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:text="Attack" />
+
+    <Button
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/attack"
+        android:layout_marginLeft="60dp"
+        android:text="Scroll" />
+
+    <Button
+        android:id="@+id/run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="108dp"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/attack"
+        android:text="RUN!!!!!" />
+
+    <Button
+        android:id="@+id/potion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/run"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/attack"
+        android:text="Potion" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/attack"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/potion"
+        android:src="@drawable/player" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/run"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/tree" />
+
+</RelativeLayout>
